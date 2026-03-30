@@ -1,0 +1,104 @@
+
+p{
+  color:white;
+  text-align:center;
+ margin:5px;
+ padding:0px;
+
+}
+img{
+  height:101px;
+  width:101px;
+  border:1px solid rgba(0, 21, 181, 0.603);
+  object-fit:contain;
+}
+.bounty{
+  margin:0px;
+}
+.main-div .button-container{
+  height:auto;
+  border:none;
+  margin:0px;
+  padding:0px;
+  display:flex;
+  box-shadow:none;
+  flex-direction:row;
+  justify-content: center;
+  gap:10px;
+  padding-top:3px;
+}
+.buy{
+  background-color:rgb(43, 239, 216);
+  border:1px solid gold;
+  border-radius:20px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:3px;
+   padding-bottom:3px;
+   font-weight: bold;
+  
+}
+.add-to-cart{
+  background-color:black;
+  border:1px solid gold;
+  border-radius:20px;
+  padding-left:15px;
+  padding-right:15px;
+   padding-top:3.5px;
+   padding-bottom:3.5px;
+  color:white;
+  font-weight: bold;
+}
+.secondary-div .button-container{
+  height:auto;
+  border:none;
+  margin:0px;
+  padding:0px;
+  display:flex;
+  box-shadow:none;
+  flex-direction:row;
+  justify-content: center;
+  gap:10px;
+  padding-top:3px;
+}
+.third-div .button-container{
+  height:auto;
+  border:none;
+  margin:0px;
+  padding:0px;
+  display:flex;
+  box-shadow:none;
+  flex-direction:row;
+  justify-content: center;
+  gap:10px;
+  padding-top:3px;
+}
+button{
+  margin-top:10px;
+cursor:pointer;
+}
+.luffy{
+  background-image:url(onepiecewanted1.png);
+}
+.buy:hover{
+  box-shadow:1px 0px 3px rgba(255, 255, 255, 0.56);
+ background-color:rgb(166, 245, 236);
+ transition:0.1s;
+}
+.add-to-cart:hover{
+  box-shadow:1px 0px 3px rgba(111, 103, 103, 0.56);
+  background-color:rgb(47, 46, 46);
+  transition: 0.1s;
+}
+.buy:active{
+  box-shadow:1px 0px 3px rgba(99, 97, 97, 0.56);
+   background-color:rgb(39, 210, 240);
+   color:white;
+   transition: 0.1s;
+}
+.add-to-cart:active{
+   box-shadow:1px 0px 3px rgba(255, 255, 255, 0.56);
+ background-color:rgb(204, 231, 231);
+ transition:0.1s;
+ color:black;
+}

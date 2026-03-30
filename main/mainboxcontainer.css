@@ -1,0 +1,28 @@
+.main-container{
+  background-image:url(background2.png);
+  background-size:cover;  /* stretch so that all wall is cover up */
+  background-position:center; /* tells which one should be in center if the size changes */
+  
+  min-height: 100vh;
+  width: 100%;
+}
+/*all row container*/
+.main-div, .secondary-div, .third-div{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  
+}
+/* all three div containers */
+.main-div div,.secondary-div div,.third-div div{
+ height:200px;
+  width:170px;
+   border:1px solid rgb(248, 210, 38);
+  margin-top:30px;
+  margin-left:100px;
+  margin-right:100px;
+   box-shadow:1px 0px 3px rgba(179, 237, 78, 0.56);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}

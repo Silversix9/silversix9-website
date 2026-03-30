@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+  padding:50px;
+  background-color:#000;
+}
+.footer-container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+}
+.silversix9{
+  border-radius:80px;
+  height:80px;
+  width:80px;
+  
+}
+.middle{
+  border:1px solid white;
+}
+.last{
+  border:1px solid white;
+}
